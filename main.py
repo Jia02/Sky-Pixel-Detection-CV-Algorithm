@@ -1,5 +1,5 @@
 '''
-    -This proposed sky detecion algorithm is able to detect the contour of the sky pixels in the image and generate a mask image of the sky region.
+    -This proposed sky detecion CV algorithm is able to detect the contour of the sky pixels in the image and generate a mask image of the sky region.
     -The algorithm is able to perform subtasks: classifying the images into nighttime and daytime category and generate the mask images that show the skyline.
 '''
 import cv2 
@@ -300,4 +300,3 @@ if __name__ == '__main__':
             print(f"Mean Intersection Over Union (mIOU) for dataset {number1}: {mIOU * 100:.2f}%\n")
      
     print(f'================================================================================================================')        
-
